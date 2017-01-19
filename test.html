@@ -1,41 +1,68 @@
 <!DOCTYPE HTML>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <title>Applied Scripture</title>
-        <script type="text/javascript">
-            function applyStory() {
-                var name = document.getElementById('nameInputBox').value;
-                var noun = document.getElementById('nounInputBox').value;
-                var noun2 = document.getElementById('noun2InputBox').value;
-                var bodypart = document.getElementById('bodypartInputBox').value;
-                var adverbly = document.getElementById('adverblyInputBox').value;
-                var verb = document.getElementById('verbInputBox').value;
-                var verb2 = document.getElementById('verb2InputBox').value;
-                var politicals = document.getElementById('politicalsInputBox').value;
-                var place = document.getElementById('placeInputBox').value;
-                var noun3 = document.getElementById('noun3InputBox').value;
-                var fname = document.getElementById('fnameInputBox').value;
-                var story = "One day, " + name + "was walking in the " + noun + " where he/she found a " + noun2 + "on the ground. The " + noun2 + " was magical, and when " + name + " put it on their" + bodypart + ", they gained the ability to" + adverbly + " " + verb + " better than ten men. " + name + " used his/her newfound powers to " + verb2 + " the city, and became the " + politicals + " of " + place + ". Now, " + name + " plans to " + verb2 + " the whole " + noun3 + "! You better watch your back, " + fname + "!"
-                document.getElementById('outputDiv').innerHTML = story;
-            }
-        </script>
-    </head>
 
-    <body>
-        <h1>Mad Libs</h1>
-        Name: <input type="text" id="nameInputBox">
-        Place: <input type="text" id="nounInputBox">
-        Noun: <input type="text" id="noun2InputBox">
-        Body Part: <input type="text" id="bodypartInputBox">
-        Adverb ending in -ly: <input type="text" id="adverblyInputBox">
-        Verb: <input type="text" id="verbInputBox">
-        Verb: <input type="text" id="verb2InputBox">
-        Political position: <input type="text" id="politicalsInputBox">
-        Place: <input type="text" id="placeInputBox">
-        Place: <input type="text" id="noun3InputBox">
-        <p>        </p>Name of the friend sitting next to you: <input type="text" id="fnameInputBox">
-        <button type="button" onclick="applyStory()">Generate</button>
-        <div id="outputDiv"></div>
-    </body>
+<head>
+    <meta charset="utf-8">
+    <title>Applied Scripture</title>
+    <script type="text/javascript">
+        function applyStory() {
+            var name = document.getElementById('nameInputBox').value;
+            var noun = document.getElementById('nounInputBox').value;
+            var noun2 = document.getElementById('noun2InputBox').value;
+            var bodypart = document.getElementById('bodypartInputBox').value;
+            var adverbly = document.getElementById('adverblyInputBox').value;
+            var verb = document.getElementById('verbInputBox').value;
+            var verb2 = document.getElementById('verb2InputBox').value;
+            var politicals = document.getElementById('politicalsInputBox').value;
+            var place = document.getElementById('placeInputBox').value;
+            var noun3 = document.getElementById('noun3InputBox').value;
+            var fname = document.getElementById('fnameInputBox').value;
+            var story ="One day, " + name + "was walking in the " + noun + " where he/she found a " + noun2 + "on the ground. The " + noun2 + " was magical, and when " + name + " put it on their" + bodypart + ", they gained the ability to" + adverbly + " " + verb + " better than ten men. " + name + " used his/her newfound powers to " + verb2 + " the city, and became the " + politicals + " of " + place + ". Now, " + name + " plans to " + verb2 + " the whole " + noun3 + "! You better watch your back, " + fname + "!"
+            document.getElementById('outputDiv').innerHTML = story;
+        }
+    </script>
+</head>
+
+<body>
+    <h1><center>Mad Libs</center></h1>
+    <ul>
+        <li>Name:
+            <input type="text" id="nameInputBox">
+        </li>
+        <li>Place:
+            <input type="text" id="nounInputBox">
+        </li>
+        <li>Noun:
+            <input type="text" id="noun2InputBox">
+        </li>
+        <li>Body Part:
+            <input type="text" id="bodypartInputBox">
+        </li>
+        <li>Adverb ending in -ly:
+            <input type="text" id="adverblyInputBox">
+        </li>
+        <li>Verb:
+            <input type="text" id="verbInputBox">
+        </li>
+        <li>Verb:
+            <input type="text" id="verb2InputBox">
+        </li>
+        <li>Political position:
+            <input type="text" id="politicalsInputBox">
+        </li>
+        <li>Place:
+            <input type="text" id="placeInputBox">
+        </li>
+        <li>Place:
+            <input type="text" id="noun3InputBox">
+        </li>
+        <li>Name of the friend sitting next to you:
+            <input type="text" id="fnameInputBox">
+        </li>
+    </ul>
+    <h2><center>Your Story</center></h2>
+    <button type="button" onclick="applyStory()">Generate</button>
+    <div id="outputDiv"></div>
+</body>
+
 </html>
