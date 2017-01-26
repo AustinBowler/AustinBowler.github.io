@@ -1,64 +1,74 @@
 <html>
-    <head>
-        <style>
-            body {
-                background-image: url("stars.gif");
+
+<head>
+    <style>
+        body {
+            background-image: url("stars.gif");
+        }
+        a:link    {color:white; background-color:transparent; text-decoration:none}
+        a:visited {color:white; background-color:transparent; text-decoration:none}
+        a:hover   {color:white; background-color:transparent; text-decoration:none}
+        a:active  {color:white; background-color:transparent; text-decoration:none}
+    </style>
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta charset="utf-8">
+    <title>Lost in Space: B9's Adventure</title>
+
+    <script type="text/javascript">
+        function leftArrowPressed() {
+            var element = document.getElementById("b9");
+            element.style.left = parseInt(element.style.left) - 5 + 'px';
+        }
+
+        function rightArrowPressed() {
+            var element = document.getElementById("b9");
+            element.style.left = parseInt(element.style.left) + 5 + 'px';
+
+        }
+
+        function upArrowPressed() {
+            var element = document.getElementById("b9");
+            element.style.top = parseInt(element.style.top) - 5 + 'px';
+        }
+
+        function downArrowPressed() {
+            var element = document.getElementById("b9");
+            element.style.top = parseInt(element.style.top) + 5 + 'px';
+        }
+
+        function moveSelection(evt) {
+            switch (evt.keyCode) {
+            case 37:
+                leftArrowPressed();
+                break;
+            case 39:
+                rightArrowPressed();
+                break;
+            case 38:
+                upArrowPressed();
+                break;
+            case 40:
+                downArrowPressed();
+                break;
             }
+        };
 
-        </style>
-        <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <title>Lost in Space: B9's Adventure</title>
+        function docReady() {
 
-        <script type="text/javascript">
+            window.addEventListener('keydown', moveSelection);
+        }
+    </script>
+</head>
 
-            function leftArrowPressed() {
-                var element = document.getElementById("b9");
-                element.style.left = parseInt(element.style.left) - 5 + 'px';
-            }
+<body onload="docReady()" onkeydown="" onkeyup="" bgcolor='black'>
+    <header>
+        <h1 style="text-align:center; color:white;">Lost in Space: B9's Adventure!</h1>
+        <nav style="text-align:center; color:white;">
+            <p><a href="index.html">Home</a></p>
+        </nav>
+        <h3 style="text-align:center; color:white;">Use the arrow keys to help B9 catch the aliens before they reach the Jupiter II!</h3>
+    </header>
+    <img id="b9" src="b9finaltalking.gif" style="position:absolute;left:475; top:200;" height="125" width="50">
+</body>
 
-            function rightArrowPressed() {
-                var element = document.getElementById("b9");
-                element.style.left = parseInt(element.style.left) + 5 + 'px';
-
-            }
-
-            function upArrowPressed() {
-                var element = document.getElementById("b9");
-                element.style.top = parseInt(element.style.top) - 5 + 'px';
-            }
-
-            function downArrowPressed() {
-                var element = document.getElementById("b9");
-                element.style.top = parseInt(element.style.top) + 5 + 'px';
-            }
-
-            function moveSelection(evt) {
-                switch (evt.keyCode) {
-                    case 37:
-                        leftArrowPressed();
-                        break;
-                    case 39:
-                        rightArrowPressed();
-                        break;
-                    case 38:
-                        upArrowPressed();
-                        break;
-                    case 40:
-                        downArrowPressed();
-                        break;
-                }
-            };
-
-            function docReady()
-            {
-
-                window.addEventListener('keydown', moveSelection);
-            }
-
-        </script>
-    </head>
-
-    <body onload="docReady()" onkeydown="" onkeyup="" bgcolor='black'>
-        <img id="b9" src="b9finaltalking.gif" style="position:absolute;left:0; top:0;" height="250" width="100">
-    </body>
 </html>
