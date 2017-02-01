@@ -79,71 +79,49 @@ html, body {
 /* Center the weekly forecast table*/
 table {
     margin: 0 auto;
-}
-/*weekly forecst table settings*/
-th {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color:#2F3A93;
+    width:50px;
+    background-color:#3f8eca;
+    padding: 0px;
     outline-color: white;
     outline-width: thin;
     border: 4px solid black;
     border-radius: 10px;
     text-align: center;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
     font-size: 16px;
     font-family: sans-serif;
     word-spacing: 0px;
     object-position: center;
 }
-tr {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
-    background-color:#3f8eca;
+/*weekly forecst table settings*/
+th {
+    padding: 0px;
     outline-color: white;
     outline-width: thin;
-    border: 4px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     text-align: center;
     color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 0px;
-    padding-right: 0px;
     font-size: 16px;
     font-family: sans-serif;
     word-spacing: 0px;
     object-position: center;
 }
 td {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 0px;
-    margin-left: 0px;
     background-color:#3f8eca;
+    padding: 0px;
     outline-color: white;
     outline-width: thin;
-    border: 4px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     text-align: center;
     color: white;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
     font-size: 16px;
     font-family: sans-serif;
     word-spacing: 0px;
     object-position: center;
 }
+
 #tempndprecipr {
     margin-top: 0px;
     margin-bottom: 0px;
