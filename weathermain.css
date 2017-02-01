@@ -69,6 +69,14 @@ h2 {
     word-spacing: 20px;
     object-position: center;
 }
+#h2exception {
+    margin-top: 48px;
+    margin-bottom: 0px;
+    margin-right: 55px;
+    margin-left: 55px;
+    margin-right: 4px;
+    margin-left: 1px;
+}
 #tempndprecipr {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -89,14 +97,6 @@ h2 {
     font-family: sans-serif;
     word-spacing: 0px;
     object-position: center;
-}
-#h2exception {
-    margin-top: 48px;
-    margin-bottom: 0px;
-    margin-right: 55px;
-    margin-left: 55px;
-    margin-right: 4px;
-    margin-left: 1px;
 }
 #tempndpreciplv {
     margin-top: 0px;
