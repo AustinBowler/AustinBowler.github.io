@@ -8,6 +8,9 @@
     <title>Weather You Like it or Not</title>
     <meta name="viewport" content="width=device-width">
     <script type="text/javascript">
+        var myJSON = '{ "name":"John", "age":31, "city":"New York" }';
+        var myObj = JSON.parse(myJSON);
+        document.getElementById("demo").innerHTML = myObj.name;
     </script>
 </head>
 
@@ -16,13 +19,13 @@
         <h1>Weather You Like it or Not</h1>
         <nav>
             <p><a href="weatherappmain.html">Home</a>
-                <a href="#rexburg">Rexburg</a>
-                <a href="#lasvegas">LasVegas</a>
-                <a href="#timbuktu">Timbuktu</a></p>
+                <a href="#franklin">Franklin</a>
+                <a href="#green">Greenville</a>
+                <a href="#spring">Springfield</a></p>
         </nav>
     </header>
     <main>
-            <h2 id="rexburg">Rexburg</h2>
+            <h2 id="franklin">Franklin</h2>
         <section id="tempndprecipr">
             <figure>
                 <img alt="placeholder image" src="weathericons/snow.png" style="width:100px;height:100px;"></figure>
@@ -50,7 +53,7 @@
                 </tr>
             </table>
         </section>
-            <h2 id="lasvegas">LasVegas</h2>
+            <h2 id="green">Greenville</h2>
         <section id="tempndpreciplv">
             <figure>
                 <img alt="placeholder image" src="weathericons/hot.png" style="width:100px;height:100px;"></figure>
@@ -78,7 +81,7 @@
                 </tr>
             </table>
         </section>
-            <h2 id="timbuktu">Timbuktu</h2>
+            <h2 id="spring">Springfield</h2>
         <section id="tempndprecipt">
             <figure>
                 <img alt="placeholder image" src="weathericons/dust.png" style="width:100px;height:100px;"></figure>
