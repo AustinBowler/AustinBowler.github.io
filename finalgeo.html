@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <title>Volume of a Tetrahedron</title>
+        <script type="text/javascript">
+            function computeVolume(){
+            var length = document.getElementById('length').value
+            var length1 = parseFloat(length);
+            var cube = length1 * length1 * length1
+            var divide = cube / 8.49
+            document.getElementById('volume').innerHTML = divide;
+            }
+        </script>
+    </head>
+
+    <body>
+        <h1>Volume of a Tetrahedron</h1>
+        Side Length <input type="text" id="length"><br>
+        <button type="button" onclick="computeVolume()">Volume</button><br>
+        Volume <div id="volume"></div>
+    </body>
+</html>

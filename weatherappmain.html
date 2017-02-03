@@ -3,14 +3,17 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="weathermain.css">
-    <link rel="norm" type="text/css" href="normalize.css">
+    <link rel="noopener" type="text/css" href="normalize.css">
     <meta charset="utf-8">
     <title>Weather You Like it or Not</title>
     <meta name="viewport" content="width=device-width">
-    <script type="text/javascript">
-        var myJSON = '{ "name":"John", "age":31, "city":"New York" }';
-        var myObj = JSON.parse(myJSON);
-        document.getElementById("demo").innerHTML = myObj.name;
+    <script type="text/javascript" src="weather.json">
+        function franklinJSON () {
+        var frankData = JSON.parse(data);
+        alert(mydata[0].High);
+        alert(mydata[0].Low);
+        document.getElementById('frankTemp').innerHTML = frankData;
+        }
     </script>
 </head>
 
@@ -29,7 +32,8 @@
         <section id="tempndprecipr">
             <figure>
                 <img alt="placeholder image" src="weathericons/snow.png" style="width:100px;height:100px;"></figure>
-            <p>This is where I will put my temperature output and related information, and above is a placeholder image. Below are placeholder temperatures (real averages will be shown later).</p>
+            <p onload="franklinJSON()"></p>
+            <div id="frankTemp"></div>
         </section>
         <section id="weeklyr">
             <table>
