@@ -14,10 +14,10 @@ body {
     background-color: white;
 }
 h1 {
-    margin-top: px;
+    margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 0px;
-    margin-left: -10px;
+    margin-left: 0px;
     background-color: #2F3A93;
     outline-color: white;
     outline-width: thin;
@@ -34,7 +34,7 @@ nav {
     margin-top: -23px;
     margin-bottom: 0px;
     margin-right: 0px;
-    margin-left: -10px;
+    margin-left: 0px;
     background-color:#3f8eca;
     outline-color: white;
     outline-width: thin;
