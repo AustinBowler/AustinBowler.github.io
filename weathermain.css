@@ -122,49 +122,7 @@ td {
     object-position: center;
 }
 
-#tempndprecipr {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 55px;
-    margin-left: 55px;
-    background-color:#3f8eca;
-    outline-color: white;
-    outline-width: thin;
-    border: 4px solid black;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-size: 16px;
-    font-family: sans-serif;
-    word-spacing: 0px;
-    object-position: center;
-}
-#tempndpreciplv {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 55px;
-    margin-left: 55px;
-    background-color:#3f8eca;
-    outline-color: white;
-    outline-width: thin;
-    border: 4px solid black;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-size: 16px;
-    font-family: sans-serif;
-    word-spacing: 0px;
-    object-position: center;
-}
-#tempndprecipt {
+#tempndprecip {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 55px;
@@ -291,7 +249,7 @@ html, body {
 /* Center the weekly forecast table*/
 table {
     margin: 0 auto;
-    width:655px;
+    width:755px;
     background-color:#3f8eca;
     padding: 0px;
     outline-color: white;
@@ -334,49 +292,7 @@ td {
     object-position: center;
 }
 
-#tempndprecipr {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 55px;
-    margin-left: 55px;
-    background-color:#3f8eca;
-    outline-color: white;
-    outline-width: thin;
-    border: 4px solid black;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-size: 16px;
-    font-family: sans-serif;
-    word-spacing: 0px;
-    object-position: center;
-}
-#tempndpreciplv {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-right: 55px;
-    margin-left: 55px;
-    background-color:#3f8eca;
-    outline-color: white;
-    outline-width: thin;
-    border: 4px solid black;
-    border-radius: 10px;
-    text-align: center;
-    color: white;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 0px;
-    padding-right: 0px;
-    font-size: 16px;
-    font-family: sans-serif;
-    word-spacing: 0px;
-    object-position: center;
-}
-#tempndprecipt {
+#tempndprecip {
     margin-top: 0px;
     margin-bottom: 0px;
     margin-right: 55px;
@@ -418,6 +334,8 @@ h4 {
     word-spacing: 0px;
     object-position: center;
     }}
+
+
 @media screen and (min-width: 1224px){
 
     a:link {
@@ -544,53 +462,11 @@ h4 {
         object-position: center;
     }
 
-    #tempndprecipr {
+    #tempndprecip {
         margin-top: 0px;
         margin-bottom: 0px;
-        margin-right: 55px;
-        margin-left: 55px;
-        background-color:#3f8eca;
-        outline-color: white;
-        outline-width: thin;
-        border: 4px solid black;
-        border-radius: 10px;
-        text-align: center;
-        color: white;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 0px;
-        padding-right: 0px;
-        font-size: 16px;
-        font-family: sans-serif;
-        word-spacing: 0px;
-        object-position: center;
-    }
-    #tempndpreciplv {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-right: 55px;
-        margin-left: 55px;
-        background-color:#3f8eca;
-        outline-color: white;
-        outline-width: thin;
-        border: 4px solid black;
-        border-radius: 10px;
-        text-align: center;
-        color: white;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 0px;
-        padding-right: 0px;
-        font-size: 16px;
-        font-family: sans-serif;
-        word-spacing: 0px;
-        object-position: center;
-    }
-    #tempndprecipt {
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-right: 55px;
-        margin-left: 55px;
+        margin-right: 330px;
+        margin-left: 330px;
         background-color:#3f8eca;
         outline-color: white;
         outline-width: thin;
