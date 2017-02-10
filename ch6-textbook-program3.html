@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+
+        <head>
+            <meta charset="utf-8">
+            <title>Down Payment Calculator</title>
+            <meta name="viewport" content="width=device-width">
+        </head>
+    <body onload="myFunction()">
+        <script>
+            function myFunction() {
+                var price = document.getElementById('cost').value;
+                if (price <= 49999.99) {
+                    5% * price
+                    document.getElementById("case1").innerHTML =
+                        "Your down payment is:" + " $";
+                }}
+        </script>
+        <h1 style="text-align:center;">Down Payment Calculator</h1>
+        <p>Cost of House</p> <input type="text" id="cost">
+        <button type="button" onclick="myFunction()">Generate</button>
+        <div id="case1"></div>
+    </body>
+</html>
+
