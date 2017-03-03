@@ -7,32 +7,6 @@
     <meta name="viewport" content="width=device-width">
 
     <script type="text/javascript">
-        <embed id='sound' loop='true' type='audio/mpeg' controller='false' height='0' width='0'>
-
-            <script type="text/javascript">
-                var songs = ["../audio/1.mp3" , "../audio/2.mp3", "../audio/3.mp3", "../audio/4.mp3", "../audio/5.mp3" ];
-        var remainingSongs = songs;
-        var el = document.getElementById("sound");
-
-        var pickSong = function(){
-            // No songs left?
-            if(!remainingSongs.length) {
-                remainingSongs = songs;
-            }
-
-            // Pick song
-            var index = Math.floor(Math.random() * (remainingSongs.length - 1));
-
-            var soundFile = remainingSongs[index];
-
-            // Remove song from array
-            remainingSongs.splice(index, 1);
-
-            el.setAttribute("src", soundFile);
-        }
-
-        pickSong();
-        el.addEventListener("ended", pickSong, false);
     </script>
 </head>
 
@@ -47,7 +21,7 @@
         <h2>Select a Mood to Start a Playlist</h2>
         <section id="sad">
             <h3>Sad</h3>
-            <button type="button" onclick="myFunction()" id="sad">Play</button>
+            <button type="button" onclick="musicSad()" id="sad">Play</button>
         </section>
         <section id="mad">
             <h3>Mad</h3>
