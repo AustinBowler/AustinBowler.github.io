@@ -1,3 +1,15 @@
+a:link {
+	color: yellow;
+}
+a:visited {
+	color: yellow;
+}
+a:hover {
+	color: white;
+}
+a:active {
+	color: yellow;
+}
 html {
 	background: url(b9_buttons/Control_Panel.png) no-repeat center center fixed;
 	-webkit-background-size: auto;
@@ -7,24 +19,93 @@ html {
 	background-color: #b6bbb1;
 }
 @font-face {
-	font-family: myFirstFont;
-	src: url();
+	font-family: WillText;
+	src: url(de-nada-industries_will-robinson/WillRobinson.ttf);
 }
 h1 {
 	text-align: center;
-	outline-color: black;
-	color: white;
-	font-family: myFirstFont;
+	color: yellow;
+	font-family: WillText;
+	text-shadow: -8px 0 black, 0 1px black,
+		1px 0 black, 0 -1px black;
+	font-size: 50px;
 }
 nav {
-	text-align: center
-}
-figure {
-	text-align: center
+	margin-top: -29px;
+	text-align: center;
+	padding: 0px;
 }
 h2 {
-	text-align: center
+	text-align: center;
+	margin-top: -13px;
 }
 p {
-	text-align: center
+	text-align: center;
+	color: yellow;
+	text-shadow: -1px 0 black, 0 1px black,
+		1px 0 black, 0 -1px black;
+}
+#p2{
+	margin-top: -12px;
+}
+#sigh{
+	margin-top: 95px;
+}
+#oddmove2{
+	margin-left: 654px;
+	margin-top: -157px
+}
+#oddmove{
+	margin-left: 410px;
+	margin-top: -7px
+}
+.tooltip57 {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip57 .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip57:hover .tooltiptext {
+	visibility: visible;
+}
+.tooltip58 {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip58 .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip58:hover .tooltiptext {
+	visibility: visible;
 }
