@@ -1,4 +1,23 @@
-body {
-	background-image: url("austinbowler.github.io/b9_buttons/Control_Panel.png");
-	background-color: transparent;
+html {
+	background: url(b9_buttons/Control_Panel.png) no-repeat center center fixed;
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	-o-background-size: auto;
+	background-size: auto;
+	background-color:
+}
+h1 {
+	text-align: center;
+}
+nav {
+	text-align: center
+}
+figure {
+	text-align: center
+}
+h2 {
+	text-align: center
+}
+p {
+	text-align: center
 }
