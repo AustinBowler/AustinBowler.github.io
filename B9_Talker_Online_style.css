@@ -45,7 +45,7 @@ p {
 	color: yellow;
 	text-shadow: -1px 0 black, 0 1px black,
 		1px 0 black, 0 -1px black;
-	margin-top: -30px;
+	margin-top: -0px;
 }
 #p2{
 	margin-top: 30px;
@@ -60,6 +60,10 @@ p {
 #oddmove{
 	margin-left: 410px;
 	margin-top: -7px
+}
+.tooltip57 {
+	position: relative;
+	display: inline-block;
 }
 .tooltip58 {
 	position: relative;
@@ -131,6 +135,56 @@ p {
 	width: 72px;
 	height: 60px;
 	margin-top: 3px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
+}
+#SFX2 {
+	margin-left: 426px;
+	background-image: url(b9_buttons/button%206.jpg);
+	width: 72px;
+	height: 60px;
+	margin-top: 0px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
+}
+#SFX3 {
+	margin-left: 9px;
+	background-image: url(b9_buttons/button%207.jpg);
+	width: 72px;
+	height: 60px;
+	margin-top: -6px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
+}
+#SFX4 {
+	margin-left: 9px;
+	background-image: url(b9_buttons/button%208.jpg);
+	width: 72px;
+	height: 60px;
+	margin-top: 0px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
+}
+#SFX5 {
+	margin-left: 9px;
+	background-image: url(b9_buttons/button%209.jpg);
+	width: 72px;
+	height: 60px;
+	margin-top: 13px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
+}
+#SFX6 {
+	margin-left: 12px;
+	background-image: url(b9_buttons/button%2010.jpg);
+	width: 72px;
+	height: 60px;
+	margin-top: 10px;
 	border: none;
 	color: transparent;
 	text-decoration: none;
