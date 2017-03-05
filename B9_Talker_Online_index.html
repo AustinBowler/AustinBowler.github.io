@@ -1,51 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>B9 Talker Online</title>
-        <meta name="viewport" content="width=device-width">
-        <meta name="description" content="An online program used to create sound for the Lost in Space robot. Based off of the B9Robot Application Version 1.0 (B9robot.EXE), Copyright (C) B9Creations 2001.">
-        <meta name="keywords" content="robot b9, b9, robot b9 builders club, b9 robot builders club, robot, b9 robot, robot builders club, builders, b9 talker online, b9 talker, lost in space, lost, space, robot b9 sound effects">
-        <meta name="author" content="Austin Bowler">
-        <script id="text/javascript">
+	<head>
+		<link rel="stylesheet" type="text/css" href="B9_Talker_Online_style.css">
+		<meta charset="utf-8">
+		<title>B9 Talker Online</title>
+		<meta name="viewport" content="width=device-width">
+		<meta name="description" content="An online program used to create sound for the Lost in Space robot. Based off of the B9Robot Application Version 1.0 (B9robot.EXE), Copyright (C) B9Creations 2001.">
+		<meta name="keywords" content="robot b9, b9, robot b9 builders club, b9 robot builders club, robot, b9 robot, robot builders club, builders, b9 talker online, b9 talker, lost in space, lost, space, robot b9 sound effects">
+		<meta name="author" content="Austin Bowler">
+		<script id="text/javascript">
+			function loops(){
+				var audio = document.getElementById("clicksWhirs");
+				audio.play();}
+			function noLoops() {
+				var audio = document.getElementById("clicksWhirs");
+				audio.pause();
+			}
+			function pullFunc() {
+				var audio = document.getElementById("clicksWhirs");
+				audio.pause();
+				var audio2 = document.getElementById("audiopull");
+				audio2.play();
+			}
+			function plugFunc() {
+				var audio = document.getElementById("clicksWhirs");
+				audio.play();
+				var audio2 = document.getElementById("audioplug");
+				audio2.play();
+			}
+			function PlaySound(path) {
+				var audioElement = document.createElement('audio');
+				audioElement.setAttribute('src', path);
+				audioElement.play();
+			}
+		</script>
+	</head>
+	<body>
+		<header>
+			<h1>B9 Talker Online</h1>
+			<nav>
+				<p><a href="index.html">Home</a></p>
+			</nav>
+		</header>
+		<main>
+			<a href="http://www.b9robotbuildersclub.com/">
+				<img src="b9_buttons/Left%20Dialight.png" alt="B9 Robot Builders Club Home">
+			</a>
+			<a href="http://www.b9robotbuildersclub.com/pub/home/history.html">
+				<img src="b9_buttons/Right%20Dialight.png" alt="B9 Robot History">
+			</a>
+			<h2>Sound Board</h2>
+			<p>First, turn the Robot on, then press the sound you wish to play (hover over buttons to see what they do).</p>
+			<p>You can also pull the power pack to dectivate the robot, and push it in to reactivate.</p>
+			<!-- Activate Robot Loop -->
+			<button type="button" alt="Activate Robot" onclick="loops()">Activate robot</button>
+			<!-- Stop Activate Robot loop -->
+			<button type="button" alt="Deactivate Robot" onclick="noLoops()">Decactivate robot</button>
+			<!-- Audio for robot background noise -->
+			<audio loop id="clicksWhirs" src="b9_sound/mp4/RobotNoise_copy.mp4" ></audio>
+			<!-- Play Pull then stop Activate Robot Loop -->
+			<button type="button" alt="Pull" onclick="pullFunc()">Pull power pack</button>
+			<!-- Audio for Pull -->
+			<audio id="audiopull" src="b9_sound/mp4/PowerPackPull.mp4" ></audio>
+			<!-- Play Plug then start Activate Robot Loop -->
+			<button type="button" alt="Plug Power Pack" onclick="plugFunc()">Plug power pack in</button>
+			<!-- Audio for Plug -->
+			<audio id="audioplug" src="b9_sound/mp4/whoturnedoutthelights_copy.mp4" ></audio>
+			<!-- Play SFX1 -->
+			<button id="SFX1" type="button"
+					onclick="javascript:PlaySound('b9_sound/mp4/circuitsFunc.mp4');">"All circuts Functioning"</button>
+			<!-- Play SFX2 -->
+			<button id="SFX2" type="button"
+					onclick="javascript:PlaySound('b9_sound/mp4/DoNotHaveAuthorize_copy.mp4');">"You do not have authorization"</button>
+			<!-- Play SFX3 -->
+			<button id="SFX3" type="button"
+					onclick="javascript:PlaySound('b9_sound/mp4/PrepareForLiftoff.mp4');">"Prepare for liftoff"</button>
+			<!-- Play SFX4 -->
+			<button id="SFX4" type="button"
+					onclick="javascript:PlaySound('b9_sound/mp4/Warning.mp4');">"Warning"</button>
+			<!-- Play SFX5 -->
+			<button id="SFX5" type="button"
+					onclick="javascript:PlaySound('b9_sound/mp4/destroy_copy.mp4');">"Destroy everyone"</button>
+			<!-- Play SFX6 -->
+			<button id="SFX5" type="button"
+					onclick="javascript:PlaySound('b9_sound/mp4/TiptoeToTheWindow.mp4');">"Tiptoe Through the Tulips"</button>
+		</main>
+		<footer>
+			<p>Last updated 2017-4-3</p>
+		</footer>
 
-        </script>
-    </head>
-    <body>
-        <header>
-            <h1>B9 Talker Online</h1>
-            <nav>
-                <p><a href="index.html">Home</a></p>
-            </nav>
-        </header>
-        <main>
-            <a href="http://www.b9robotbuildersclub.com/">
-                <img src="Left%20Dialight.png" alt="B9 Robot Builders Club Home">
-            </a>
-            <a href="http://www.b9robotbuildersclub.com/pub/home/history.html">
-                <img src="Right%20Dialight.png" alt="B9 Robot History">
-            </a>
-            <h2>Sound Board</h2>
-            <p>First, turn the Robot on, then press the sound you wish to play (hover over buttons to see what they do).</p>
-            <p>You can also pull the power pack to dectivate the robot, and push it in to reactivate.</p>
-            <button type="button" alt="Activate Robot" onclick="myFunction1()">Activate robot</button>
-            <button type="button" alt="Deactivate Robot" onclick="myFunction1()">Decactivate robot</button>
-            <button type="button" alt="Pull" onclick="myFunction1()">Pull power pack</button>
-            <button type="button" alt="Plug Power Pack" onclick="myFunction1()">Plug power pack in</button>
-            <button type="button" alt="SFX1" onclick="myFunction1()">"You do not have authorization"</button>
-            <button type="button" alt="SFX2" onclick="myFunction1()">"All circuts functioning"</button>
-            <button type="button" alt="SFX3" onclick="myFunction1()">"Prepare for liftoff"</button>
-            <button type="button" alt="SFX4" onclick="myFunction1()">"Warning"</button>
-            <button type="button" alt="SFX5" onclick="myFunction1()">"Destroy everyone"</button>
-            <button type="button" alt="SFX6" onclick="myFunction1()">"Tiptoe through the tulips"</button>
-        </main>
-        <footer>
-            <p>Last updated 2017-3-3</p>
-        </footer>
 
-
-    </body>
-
+	</body>
 
 </html>

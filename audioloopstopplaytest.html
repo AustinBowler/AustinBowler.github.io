@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="button" value="PLAY"  onclick="loops()">
+        <button onclick="noLoops()" type="button">Disable loop</button>
+        <button onclick="loopeedoop()" type="button">Disable loop (W) pp pull</button>
+        <button onclick="loopeedoopredo()" type="button">Enable loop (W) pp plug</button>
+        <audio loop id="audio" src="b9_sound/mp4/RobotNoise_copy.mp4" ></audio>
+        <audio id="audiowhat" src="b9_sound/mp4/PowerPackPull.mp4" ></audio>
+        <audio id="audiowhat2" src="b9_sound/mp4/whoturnedoutthelights_copy.mp4" ></audio>
+        <script>
+            function loops(){
+                var audio = document.getElementById("audio");
+                audio.play();}
+            function noLoops() {
+                var audio = document.getElementById("audio");
+                audio.pause();
+            }
+            function loopeedoop() {
+                var audio = document.getElementById("audio");
+                audio.pause();
+                var audiowhat = document.getElementById("audiowhat");
+                audiowhat.play();
+            }
+            function loopeedoopredo() {
+                var audio = document.getElementById("audio");
+                audio.play();
+                var audiowhat = document.getElementById("audiowhat2");
+                audiowhat.play();
+            }
+        </script>
+
+    </body>
+</html>

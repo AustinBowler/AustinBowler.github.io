@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <input type="button" value="PLAY"  onclick="loops()">
+        <button onclick="noLoops()" type="button">Disable loop</button>
+        <audio loop id="audio" src="b9_sound/mp4/RobotNoise_copy.mp4" ></audio>
+        <script>
+            function loops(){
+                var audio = document.getElementById("audio");
+                audio.play();}
+            function noLoops() {
+                var audio = document.getElementById("audio");
+                audio.pause();
+            }
+        </script>
+
+    </body>
+</html>
