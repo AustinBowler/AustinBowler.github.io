@@ -45,7 +45,7 @@
 		</header>
 		<main>
 			<section id="oddmove">
-			<div class="tooltip57">
+			<div class="tooltip58">
 				<figure>
 					<a href="http://www.b9robotbuildersclub.com/">
 						<img id="leftD" src="b9_buttons/Left%20Dialight.png" alt="B9 Robot Builders Club Home">
@@ -66,22 +66,37 @@
 			</section>
 			<h2>Sound Board</h2>
 			<!-- Activate Robot Loop -->
-			<button type="button" alt="Activate Robot" onclick="loops()">Activate robot</button>
+			<div class="tooltip58">
+			<button id="AR" type="button" alt="Activate Robot" onclick="loops()">Activate robot</button>
+				<span class="tooltiptext">Activate Robot</span>
+			</div>
 			<!-- Stop Activate Robot loop -->
-			<button type="button" alt="Deactivate Robot" onclick="noLoops()">Decactivate robot</button>
+			<div class="tooltip58">
+			<button id="DR" type="button" alt="Deactivate Robot" onclick="noLoops()">Decactivate robot</button>
+				<span class="tooltiptext">Deactivate robot</span>
+			</div>
 			<!-- Audio for robot background noise -->
 			<audio loop id="clicksWhirs" src="b9_sound/mp4/RobotNoise_copy.mp4" ></audio>
 			<!-- Play Pull then stop Activate Robot Loop -->
-			<button type="button" alt="Pull" onclick="pullFunc()">Pull power pack</button>
+			<div class="tooltip58">
+			<button id="PDR" type="button" alt="Pull" onclick="pullFunc()">Pull power pack</button>
+				<span class="tooltiptext">Pull power pack</span>
+			</div>
 			<!-- Audio for Pull -->
 			<audio id="audiopull" src="b9_sound/mp4/PowerPackPull.mp4" ></audio>
 			<!-- Play Plug then start Activate Robot Loop -->
-			<button type="button" alt="Plug Power Pack" onclick="plugFunc()">Plug power pack in</button>
+			<div class="tooltip58">
+			<button id="PAR" type="button" alt="Plug Power Pack" onclick="plugFunc()">Plug power pack in</button>
+				<span class="tooltiptext">Plug power pack in</span>
+			</div>
 			<!-- Audio for Plug -->
 			<audio id="audioplug" src="b9_sound/mp4/whoturnedoutthelights_copy.mp4" ></audio>
 			<!-- Play SFX1 -->
+			<div class="tooltip58">
 			<button id="SFX1" type="button"
 					onclick="javascript:PlaySound('b9_sound/mp4/circuitsFunc.mp4');">"All circuts Functioning"</button>
+				<span class="tooltiptext">"All circuts Functioning"</span>
+			</div>
 			<!-- Play SFX2 -->
 			<button id="SFX2" type="button"
 					onclick="javascript:PlaySound('b9_sound/mp4/DoNotHaveAuthorize_copy.mp4');">"You do not have authorization"</button>

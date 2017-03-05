@@ -37,16 +37,18 @@ nav {
 }
 h2 {
 	text-align: center;
-	margin-top: -13px;
+	margin-top: -40px;
+	padding: 0px;
 }
 p {
 	text-align: center;
 	color: yellow;
 	text-shadow: -1px 0 black, 0 1px black,
 		1px 0 black, 0 -1px black;
+	margin-top: -30px;
 }
 #p2{
-	margin-top: -12px;
+	margin-top: 30px;
 }
 #sigh{
 	margin-top: 95px;
@@ -58,31 +60,6 @@ p {
 #oddmove{
 	margin-left: 410px;
 	margin-top: -7px
-}
-.tooltip57 {
-	position: relative;
-	display: inline-block;
-}
-
-.tooltip57 .tooltiptext {
-	visibility: hidden;
-	width: 120px;
-	background-color: black;
-	color: #fff;
-	text-align: center;
-	border-radius: 6px;
-	padding: 5px 0;
-
-	/* Position the tooltip */
-	position: absolute;
-	z-index: 1;
-	bottom: 100%;
-	left: 50%;
-	margin-left: -60px;
-}
-
-.tooltip57:hover .tooltiptext {
-	visibility: visible;
 }
 .tooltip58 {
 	position: relative;
@@ -105,7 +82,56 @@ p {
 	left: 50%;
 	margin-left: -60px;
 }
-
 .tooltip58:hover .tooltiptext {
 	visibility: visible;
+}
+#AR {
+	margin-left: 428px;
+	background-image: url(b9_buttons/button%201.jpg);
+	width: 72px;
+	height: 55px;
+	margin-top: 5px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
+}
+#DR {
+	margin-left: 7px;
+	background-image: url(b9_buttons/button%202.jpg);
+	width: 73px;
+	height: 55px;
+	margin-top: 5px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
+}
+#PDR {
+	margin-left: 9px;
+	background-image: url(b9_buttons/button%203.jpg);
+	width: 72px;
+	height: 60px;
+	margin-top: 3px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
+}
+#PAR {
+	margin-left: 11px;
+	background-image: url(b9_buttons/button%204.jpg);
+	width: 72px;
+	height: 60px;
+	margin-top: 3px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
+}
+#SFX1 {
+	margin-left: 9px;
+	background-image: url(b9_buttons/button%205.jpg);
+	width: 72px;
+	height: 60px;
+	margin-top: 3px;
+	border: none;
+	color: transparent;
+	text-decoration: none;
 }
