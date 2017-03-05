@@ -4,10 +4,17 @@ html {
 	-moz-background-size: auto;
 	-o-background-size: auto;
 	background-size: auto;
-	background-color:
+	background-color: #b6bbb1;
+}
+@font-face {
+	font-family: myFirstFont;
+	src: url();
 }
 h1 {
 	text-align: center;
+	outline-color: black;
+	color: white;
+	font-family: myFirstFont;
 }
 nav {
 	text-align: center
