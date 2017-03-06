@@ -159,3 +159,7 @@ p {
 .tooltip58:hover .tooltiptext {
 	visibility: visible;
 }
+footer {
+	background-color: #d3dddc;
+	height: 40px;
+}
