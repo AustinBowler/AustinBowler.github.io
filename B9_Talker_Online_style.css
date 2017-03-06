@@ -36,36 +36,33 @@ h1 {
 		1px 0 black, 0 -1px black;
 	font-size: 35px;
 }
-nav {
-	display: flex;
-	justify-content: center;
-	text-shadow: -1px 0 black, 0 1px black,
-		1px 0 black, 0 -1px black;
-}
 .dialights {
 	display: flex;
 	justify-content:space-around;
-	margin-top: 8%;
+	margin-top: 7%;
 	padding-left: 20%;
 	padding-right: 20%;
 }
 #leftDialight {
 	background-color: aliceblue;
-	border-color: transparent;
 	font-size: 0px;
-	width: 110px;
-	height: 110px;
+	width: 130px;
+	height: 130px;
 	border-radius: 50%;
 	border:7px solid #d3dddc;
 }
 #rightDialight {
 	background-color: aliceblue;
-	border-color: transparent;
 	font-size: 0px;
-	width: 110px;
-	height: 110px;
+	width: 130px;
+	height: 130px;
 	border-radius: 50%;
 	border:7px solid #d3dddc;
+}
+h2 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .tooltip57 {
 	position: relative;
@@ -75,7 +72,100 @@ nav {
 	position: relative;
 	display: inline-block;
 }
-
+p {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.buttons{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	background-color: #d3dddc;
+	width: 700px;
+	height: 260px;
+}
+#AR{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fbd733;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
+#DR{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #49da91;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
+#PDR{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #f61a2c;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
+#PAR{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #49da91;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
+#SFX1{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fbd733;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
+#SFX2{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fbd733;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
+#SFX3{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #49da91;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
+#SFX4{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #f61a2c;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
+#SFX5{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #49da91;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
+#SFX6{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #fbd733;
+	font-size: 0px;
+	width: 120px;
+	height: 120px;
+}
 .tooltip58 .tooltiptext {
 	visibility: hidden;
 	width: 120px;
