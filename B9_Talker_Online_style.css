@@ -17,8 +17,6 @@ a:active {
 html {
 	background-color: #919285;
 }
-body{
-}
 header {
 	background-color: #d3dddc;
 	height: 80px;
@@ -62,76 +60,81 @@ h2 {
 p {
 	text-align: center;
 }
-.buttons{
+.topRow {
 	background-color: #d3dddc;
-	height: 80px;
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	height: 70px;
 	margin-left: 10%;
 	margin-right: 10%;
+}
+.bottomRow {
+	background-color: #d3dddc;
 	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
+	justify-content: space-around;
+	height: 70px;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 #AR {
 	background-color: #fbd733;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 #DR {
 	background-color: #49da91;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 #PDR {
 	background-color: #f61a2c;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 #PAR {
 	background-color: #49da91;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 #SFX1 {
 	background-color: #fbd733;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 #SFX2 {
 	background-color: #fbd733;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 #SFX3 {
 	background-color: #49da91;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 #SFX4 {
 	background-color: #f61a2c;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 #SFX5 {
 	background-color: #49da91;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 #SFX6 {
 	background-color: #fbd733;
 	font-size: 0px;
-	height: 10%;
-	width: 10%;
+	height: 90%;
+	width: 50px;
 }
 .tooltip58 {
 	position: relative;
