@@ -68,11 +68,27 @@ p {
 	margin-left: 10%;
 	margin-right: 10%;
 }
+.topRow2 {
+	background-color: #d3dddc;
+	display: flex;
+	justify-content: space-around;
+	height: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
 .bottomRow {
 	background-color: #d3dddc;
 	display: flex;
 	justify-content: space-around;
 	height: 70px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.bottomRow2 {
+	background-color: #d3dddc;
+	display: flex;
+	justify-content: space-around;
+	height: 30px;
 	margin-left: 10%;
 	margin-right: 10%;
 }
@@ -135,6 +151,138 @@ p {
 	font-size: 0px;
 	height: 64px;
 	width: 50px;
+}
+#buttonspacer {
+	height: 50px;
+}
+#led {
+	background-color: #294180;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led2 {
+	background-color:
+		#b19446;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led3 {
+	background-color:
+		#a03538;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led4 {
+	background-color:
+#43564b;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led4 {
+	background-color:
+		#43564b;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led5 {
+	background-color:
+		#b19446;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led6 {
+	background-color:
+		#294180;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led7 {
+	background-color:
+		#b19446;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led8 {
+	background-color:
+		#a03538;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led9 {
+	background-color:
+		#43564b;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led10 {
+	background-color:
+		#b19446;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led11 {
+	background-color:
+		#294180;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
+}
+#led12 {
+	background-color:
+		#a03538;
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:3px solid #919285;
+	margin-left: -20%;
 }
 .tooltip58 {
 	position: relative;
