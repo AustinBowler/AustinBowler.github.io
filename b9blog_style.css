@@ -227,7 +227,27 @@ h3 {
 	background-color: #b6bbb1;
 	margin-top: 0px;
 }
-#about {
+#welcomes {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome2 {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome2s {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome3 {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome3s {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#aboutSE {
 	font-size: 150%;
 	text-align: center;
 	margin-bottom: 0%;
@@ -236,8 +256,38 @@ h3 {
 	justify-content: center;
 	align-content: center;
 }
+#about {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about2 {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about3 {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
 #imageHeader {
-	height: 550px;
+	height: 450px;
 	margin-bottom: 0px;
 	background-color: #b6bbb1;
 	margin-top: -36px;
@@ -262,10 +312,6 @@ h3 {
 		#b6bbb1;
 	height: 100px;
 	width: 90%;
-}
-#imageHeader {
-	display: flex;
-	justify-content: center;
 }
 figcaption {
 	text-align: center;
