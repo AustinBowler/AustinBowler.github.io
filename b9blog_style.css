@@ -1,0 +1,328 @@
+a:link {
+	color: yellow;
+}
+a:visited {
+	color: yellow;
+}
+a:hover {
+	color: white;
+}
+a:active {
+	color: yellow;
+}
+@font-face {
+	font-family: WillText;
+	src: url(de-nada-industries_will-robinson/WillRobinson.ttf);
+}
+html {
+	background-color: #919285;
+}
+#title {
+	background-color:
+		#b6bbb1;
+	height: 120px;
+}
+h1 {
+	color: yellow;
+	font-family: WillText;
+	text-shadow: -6px 0 black, 0 1px black,
+		1px 0 black, 0 -1px black;
+	font-size: 280%;
+	text-align: center;
+	margin-bottom: 0%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+h2 {
+	color: yellow;
+	font-family: WillText;
+	text-shadow: -3px 0 black, 0 1px black,
+		1px 0 black, 0 -1px black;
+	font-size: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#hDivider {
+	margin-top: 0px;
+	display: flex;
+}
+#hLeft {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#hRight {
+	margin-top: 0px;
+	margin-right: 0px;
+}
+#fart {
+	margin-right: -40px;
+	margin-left: -40px;
+	background-color:
+		#b6bbb1;
+	height: 40px;
+	width: 90%;
+}
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	background-image: url("stars.gif");
+	border-radius: 50%;
+	border:7px solid #b6bbb1;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 150px;
+}
+#row1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 70px;
+	width: 80%;
+	margin-top: 20px;
+}
+#row2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	height: 70px;
+	width: 100%;
+	margin-top: -40px;
+}
+#t {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #f61a2c;
+}
+#a {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #fbd733;
+}
+#b {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid
+		#49da91;
+}
+#c {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #5d90bf;
+}
+#d {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid
+		#995b89;
+}
+#e {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #fbd733;
+}
+#f {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #49da91;
+}
+#g {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #995b89;
+}
+#h {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #5d90bf;
+}
+#i {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #f61a2c;
+}
+#j {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #fbd733;
+}
+#k {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #49da91;
+}
+#l {
+	font-size: 0px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border:15px solid #f61a2c;
+}
+.tooltip58 {
+	position: relative;
+	display: inline-block;
+}
+.tooltip58 .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: black;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+}
+.tooltip58:hover .tooltiptext {
+	visibility: visible;
+}
+h3 {
+	color: yellow;
+	font-family: WillText;
+	text-shadow: -6px 0 black, 0 1px black,
+		1px 0 black, 0 -1px black;
+	font-size: 200%;
+	text-align: center;
+	margin-bottom: 0%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#welcome {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#about {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#imageHeader {
+	height: 550px;
+	margin-bottom: 0px;
+	background-color: #b6bbb1;
+	margin-top: -36px;
+}
+#topDivider {
+	margin-bottom: 0px;
+	display: flex;
+	margin-top: 20px;
+}
+#mLeft {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#mRight {
+	margin-top: 0px;
+	margin-right: 0px;
+}
+#fart2 {
+	margin-right: -40px;
+	margin-left: -40px;
+	background-color:
+		#b6bbb1;
+	height: 100px;
+	width: 90%;
+}
+#imageHeader {
+	display: flex;
+	justify-content: center;
+}
+figcaption {
+	text-align: center;
+	margin-top: 20px;
+	background-color: #d3dddc;
+	height: 30%;
+	font-size: 20px;
+
+}
+#mainImage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#bottomDivider {
+	margin-bottom: 0px;
+	display: flex;
+	margin-top: 0px;
+}
+#bLeft {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#bRight {
+	margin-top: 0px;
+	margin-right: 0px;
+}
+#fart3 {
+	margin-right: -40px;
+	margin-left: -40px;
+	background-color:
+		#b6bbb1;
+	height: 100px;
+	width: 90%;
+}
+#footerDivider {
+	margin-bottom: -36px;
+	display: flex;
+	margin-top: 0px;
+}
+#fLeft {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+#fRight {
+	margin-top: 0px;
+	margin-right: 0px;
+}
+#fart4 {
+	margin-right: -40px;
+	margin-left: -40px;
+	background-color:
+		#b6bbb1;
+	height: 40px;
+	width: 90%;
+}
+footer {
+	text-align: center;
+	background-color: #b6bbb1;
+}
