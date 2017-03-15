@@ -60,6 +60,16 @@ h2 {
 	margin-right: 0px;
 }
 #fart {
+	color: yellow;
+	font-family: WillText;
+	text-shadow: -3px 0 black, 0 1px black,
+		1px 0 black, 0 -1px black;
+	font-size: 100%;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
 	margin-right: -40px;
 	margin-left: -40px;
 	background-color:
@@ -247,6 +257,86 @@ h3 {
 	background-color: #b6bbb1;
 	margin-top: 0px;
 }
+#welcome4 {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome4s {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome5 {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome5s {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome2t {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcomet {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome23 {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome23s {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome3km {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome3skm {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome3skms {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+}
+#welcome3skmss {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+#welcome3skmss2 {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+#welcome3skms2 {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+#welcome3skms2s {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+#welcome3skms2s {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+#welcome3skms2spics {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+	padding-top: 50px;
+}
+#welcome3skms2thanks {
+	background-color: #b6bbb1;
+	margin-top: 0px;
+	padding-top: 50px;
+	height: 500px;
+}
 #aboutSE {
 	font-size: 150%;
 	text-align: center;
@@ -260,7 +350,7 @@ h3 {
 	font-size: 150%;
 	text-align: center;
 	margin-bottom: 0%;
-	height: 50px;
+	height: 250px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -270,7 +360,7 @@ h3 {
 	font-size: 150%;
 	text-align: center;
 	margin-bottom: 0%;
-	height: 50px;
+	height: 150px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -280,13 +370,225 @@ h3 {
 	font-size: 150%;
 	text-align: center;
 	margin-bottom: 0%;
-	height: 50px;
+	height: 180px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about4 {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 100px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about5 {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about5ers {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 470px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#aboute {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 120px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about2e {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 170px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about23 {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about3e {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about2t {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about3km {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about2tt {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about123 {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 150px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about3kms {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 300px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about3skms {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 350px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about3skms2 {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about3skms2s {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 500px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#about3skms2ss {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 350px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+}
+#welcome3skms2spics {
+	font-size: 150%;
+	text-align: center;
+	margin-bottom: 0%;
+	height: 2700px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: center;
 }
 #imageHeader {
+	height: 450px;
+	margin-bottom: 0px;
+	background-color: #b6bbb1;
+	margin-top: -36px;
+}
+#imageHeadercontrol {
+	height: 500px;
+	margin-bottom: 0px;
+	background-color: #b6bbb1;
+	margin-top: -36px;
+}
+#imageHeaderheadandneck {
+	height: 350px;
+	margin-bottom: 0px;
+	background-color: #b6bbb1;
+	margin-top: -36px;
+}
+#imageHeaderradar {
+	height: 250px;
+	margin-bottom: 0px;
+	background-color: #b6bbb1;
+	margin-top: -36px;
+}
+#imageHeaderneon {
+	height: 270px;
+	margin-bottom: 0px;
+	background-color: #b6bbb1;
+	margin-top: -36px;
+}
+#imageHeadercontrolss {
+	height: 350px;
+	margin-bottom: 0px;
+	background-color: #b6bbb1;
+	margin-top: -36px;
+}
+#imageHeadercontrolssr {
+	height: 450px;
+	margin-bottom: 0px;
+	background-color: #b6bbb1;
+	margin-top: -36px;
+}
+#imageHeadercontrolssrpics {
 	height: 450px;
 	margin-bottom: 0px;
 	background-color: #b6bbb1;
@@ -321,6 +623,11 @@ figcaption {
 	font-size: 20px;
 }
 #mainImage {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#mainImage2 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -370,4 +677,54 @@ figcaption {
 footer {
 	text-align: center;
 	background-color: #b6bbb1;
+}
+#externalL {
+		background-color: aliceblue;
+		font-size: 0px;
+		width: 100px;
+		height: 100px;
+		border-radius: 50%;
+		border:7px solid #d3dddc;
+}
+#externalL2 {
+	background-color: aliceblue;
+	font-size: 0px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:7px solid #d3dddc;
+}
+#externalL3 {
+	background-color: aliceblue;
+	font-size: 0px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:7px solid #d3dddc;
+}
+#externalL4 {
+	background-color: aliceblue;
+	font-size: 0px;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:7px solid #d3dddc;
+}
+#externalLinks {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	padding-bottom: 5%;
+}
+#externalLinks2 {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	padding-bottom: 5%;
+}
+#externalLinks3 {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+	padding-bottom: 5%;
 }
