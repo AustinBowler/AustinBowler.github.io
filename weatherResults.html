@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<link rel="stylesheet" type="text/css" href="weathermain.css">
+		<link rel="stylesheet" type="text/css" href="flexbox.css">
+		<link rel="stylesheet" type="text/css" href="normalize.css">
+		<link rel="stylesheet" type="jquery" href="JQuery.jquery">
+		<meta charset="utf-8">
+		<title>Weather You Like it or Not</title>
+		<meta name="viewport" content="width=device-width">
+		<noscript>Sorry, your browser does not support JavaScript. Do you live in the 80's? Get a better computer buddy!</noscript>
+	</head>
+	<script src="jsonweather-html/scripts/jquery-3.0.0.min.js"></script>
+	<script src="jsonweather-html/scripts/modules.js"></script>
+	<script src="jsonweather-html/scripts/remote_wu.js"></script>
+	<body>
+		<header>
+			<h1>Weather You Like it or Not</h1>
+			<nav>
+				<p><a href="weatherappmain.html">Home</a>
+					<a href="#franklin">Franklin</a>
+					<a href="#green">Greenville</a>
+					<a href="#spring">Springfield</a></p>
+			</nav>
+		</header>
+		<main>
+			<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+			<script src="weatherSearch.js"></script>
+
+			<form method="get" id="searchform">
+				<input type="search" name="query" id="query" value="Enter Search Here">
+			</form>
+			<!--    Display the search results here  -->
+			<section id="searchResults">
+				<p>Search results</p>
+			</section>
+			<section id="currentLT">
+				<h2 id="cityDisplay">Loading Current Location:</h2>
+			</section>
+			<section id="current">
+				<h3>Today</h3>
+				<figure>
+					<img alt="Weather image" id="icon" src="" style="width:100px;height:100px;"></figure>
+				<p id="summary"></p>
+				<p id="currentTemp"></p>
+				<p id="feelslike"></p>
+				<p id="high">High: 90</p>
+				<p id="low">Low: 66</p>
+				<p id="precip"></p>
+				<h5>Hourly Temperatures:</h5>
+				<h6 id="12amf">12:00am-67</h6>
+				<h6 id="1amf">1:00am-67</h6>
+				<h6 id="2amf">2:00am-69</h6>
+				<h6 id="3amf">3:00am-69</h6>
+				<h6 id="4amf">4:00am-69</h6>
+				<h6 id="5amf">5:00am-70</h6>
+				<h6 id="6amf">6:00am-69</h6>
+				<h6 id="7amf">7:00am-72</h6>
+				<h6 id="8amf">8:00am-74</h6>
+				<h6 id="9amf">9:00am-77</h6>
+				<h6 id="10amf">10:00am-79</h6>
+				<h6 id="11amf">11:00am-81</h6>
+				<h6 id="12pmf">12:00pm-84</h6>
+				<h6 id="1pmf">1:00pm-86</h6>
+				<h6 id="2pmf">2:00pm-88</h6>
+				<h6 id="3pmf">3:00pm-90</h6>
+				<h6 id="4pmf">4:00pm-90</h6>
+				<h6 id="5pmf">5:00pm-85</h6>
+				<h6 id="6pmf">6:00pm-83</h6>
+				<h6 id="7pmf">7:00pm-79</h6>
+				<h6 id="8pmf">8:00pm-74</h6>
+				<h6 id="9pmf">9:00pm-70</h6>
+				<h6 id="10pmf">10:00pm-68</h6>
+				<h6 id="11pmf">11:00pm-66</h6>
+			</section>
+			<section id="weeklyr">
+				<h4>temporary heading</h4>
+				<table>
+					<tr>
+						<th>Sun</th>
+						<th>Mon</th>
+						<th>Tue</th>
+						<th>Wed</th>
+						<th>Thurs</th>
+						<th>Fri</th>
+						<th>Sat</th>
+					</tr>
+					<tr>
+						<td>-95</td>
+						<td>-96</td>
+						<td>-97</td>
+						<td>-98</td>
+						<td>-99</td>
+						<td>-100</td>
+						<td>-95</td>
+					</tr>
+				</table>
+			</section>
+
+
+			<section id="adspace">
+				<h4>temporary heading</h4>
+				<section id="adspace3">
+					<h4>temporary heading</h4>
+					<section id="botadleft">
+						<h4>temporary heading</h4>
+						<img alt="rhpad1" src="ads/rexburg2.png" style="width:150px;height:256px;">
+					</section>
+					<section id="botadright">
+						<h4>temporary heading</h4>
+						<img alt="rhpad1" src="ads/mrt.png" style="width:150px;height:256px;">
+					</section>
+				</section>
+			</section>
+		</main>
+		<footer>
+			<p>Last updated 2017-2-10</p>
+		</footer>
+	</body>
+</html>

@@ -321,7 +321,18 @@ p {
 .tooltip58:hover .tooltiptext {
 	visibility: visible;
 }
+#footer {
+	background-color: #d3dddc;
+	height: 150px;
+}
 footer {
 	background-color: #d3dddc;
 	height: 150px;
+}
+#play {
+	background-color:
+		#fafafa;
+	height: 32px;
+	display: flex;
+	justify-content: center;
 }
