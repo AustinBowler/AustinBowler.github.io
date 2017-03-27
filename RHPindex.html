@@ -1,61 +1,198 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>Rexburg Hero Party Home</title>
-        <meta name="viewport" content="width=device-width">
-    </head>
+	<head>
+	<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="RHPstyle.css">
+	<title>Rexburg Hero Party Home</title>
+	<meta name="viewport" content="width=device-width">
+</head>
 
-    <body>
-        <header>
-            <h1>Rexburg Hero Party</h1>
-            <nav>
-                <p><a href="">About</a></p>
-                <p><a href="">Contact</a></p>
-                <p><a href="">Characters</a></p>
-            </nav>
-        </header>
-        <main>
-            <section id="aboveFold">
-                <h2>css determines h2 output --> company description</h2>
-                <figure class="RHPlogo1">
-                    <img src="" alt="Rexburg Hero Party Logo 1">
-                    <source media="(min-width: 650px)" srcset="">
-                    <source media="(min-width: 465px)" srcset="">
-                    <source media="(min-width: 325px)" srcset="">
-                </figure>
-                <form id="pictures_button">
-                    <input class="Pictures Button" type="button" value="Pictures" onclick="window.location.href=''" />
-                </form>
-                <figure class="RHPlogo2">
-                    <img src="" alt="Rexburg Hero Party Logo 2">
-                    <source media="(min-width: 650px)" srcset="">
-                    <source media="(min-width: 465px)" srcset="">
-                    <source media="(min-width: 325px)" srcset="">
-                </figure>
-            </section>
-            <section id="break"></section>
-            <section id="newsFlash">
-                <h1>News Flash!</h1>
-                <p>Seen Spiderman swinging around town? Instagram it with #rexburgheroparty or #rexburgspiderman</p>
-                <figure class="Spiderimic">
-                    <img id="" alt="Spiderman at 2013 San Diego Comic Convention">
-                    <source media="(min-width: 650px)" srcset="">
-                    <source media="(min-width: 465px)" srcset="">
-                    <source media="(min-width: 325px)" srcset="">
-                </figure>
-                <form id="about">
-                    <input class="About" type="button" value="About" onclick="window.location.href=''" />
-                </form>
-            </section>
-        </main>
-        <footer>
-            <p>Last updated 2017-1-13</p>
-        </footer>
+<body>
+	<header>
+		<h1>Rexburg Hero Party</h1>
+		<nav>
+			<p><a href="">About</a></p>
+			<p><a href="">Contact</a></p>
+			<p><a href="">Characters</a></p>
+		</nav>
+	</header>
+	<main>
+		<section id="aboveFold">
+			<h2>css determines h2 output --> company description</h2>
+			<figure class="RHPlogo1">
+				<img src="" alt="Rexburg Hero Party Logo 1">
+				<source media="(min-width: 650px)" srcset="">
+				<source media="(min-width: 465px)" srcset="">
+				<source media="(min-width: 325px)" srcset="">
+			</figure>
+			<form id="pictures_button">
+				<input class="Pictures Button" type="button" value="Pictures" onclick="window.location.href=''" />
+			</form>
+			<figure class="RHPlogo2">
+				<img src="" alt="Rexburg Hero Party Logo 2">
+				<source media="(min-width: 650px)" srcset="">
+				<source media="(min-width: 465px)" srcset="">
+				<source media="(min-width: 325px)" srcset="">
+			</figure>
+		</section>
+		<section id="break"></section>
+		<section id="newsFlash">
+			<h1>News Flash!</h1>
+			<p>Seen Spiderman swinging around town? Instagram it with #rexburgheroparty or #rexburgspiderman</p>
+			<figure class="Spiderimic">
+				<img id="" alt="Spiderman at 2013 San Diego Comic Convention">
+				<source media="(min-width: 650px)" srcset="">
+				<source media="(min-width: 465px)" srcset="">
+				<source media="(min-width: 325px)" srcset="">
+			</figure>
+			<form id="about">
+				<input class="About" type="button" value="About" onclick="window.location.href=''" />
+			</form>
+		</section>
+		<section id="social">
+			<figure class="facebookButton" type="button" onclick="window.location.href=''">
+				<img src="" alt="Facebook Button">
+				<source media="(min-width: 650px)" srcset="">
+				<source media="(min-width: 465px)" srcset="">
+				<source media="(min-width: 325px)" srcset="">
+			</figure>
+			<figure class="instagramButton" type="button" onclick="window.location.href=''">
+				<img src="" alt="Instagram Button">
+				<source media="(min-width: 650px)" srcset="">
+				<source media="(min-width: 465px)" srcset="">
+				<source media="(min-width: 325px)" srcset="">
+			</figure>
+			<figure class="emailButton" type="button" onclick="window.location.href=''">
+				<img src="" alt="Email Button">
+				<source media="(min-width: 650px)" srcset="">
+				<source media="(min-width: 465px)" srcset="">
+				<source media="(min-width: 325px)" srcset="">
+			</figure>
+		</section>
+		<form id="1">
+			<h3>What's Your Favorite Superhero?</h3>
+			<label for="option1">
+				<input type="radio" value="option1" id="option1"  />
+				Spiderman
+			</label>
+
+			<label for="option2">
+				<input type="radio" value="option2" id="option2" />
+				Batman
+			</label>
+
+			<label for="option3">
+				<input type="radio" value="option3" id="option3" />
+				Superman
+			</label>
+
+			<label for="option4">
+				<input type="radio" value="option4" id="option4" />
+				Wonder Woman
+			</label>
+			<label for="option5">
+				<input type="radio" value="option5" id="option5" />
+				Captian America
+			</label>
+			<label for="send">
+				<input type="button"  onclick="formCollect()" value="Send Response" id="send1" />
+			</label>
+		</form>
+		<form id="2">
+			<h3>Hey, Hero Lovers! What's On Your Mind?</h3>
+			<p id="query">Who do you want to see in Rexburg Hero Party?</p>
+			<label for="option1">
+				<input type="radio" value="option1" id="option1"  />
+				Batman
+			</label>
+
+			<label for="option2">
+				<input type="radio" value="option2" id="option2" />
+				Wonder Woman
+			</label>
+
+			<label for="option3">
+				<input type="radio" value="option3" id="option3" />
+				Superman
+			</label>
+
+			<label for="option4">
+				<input type="radio" value="option4" id="option4" />
+				Other
+			</label>
+			<br>
+			IF OTHER PLEASE SPECIFY:
+			<input type="text" name="other">
+			<input type="button" value="Submit">
+		</form>
+		<form id="3">
+			<h3>Where is Waldo?</h3>
+			<label for="option1">
+				<input type="radio" value="option1" id="option1"  />
+				I have no idea
+			</label>
+
+			<label for="option2">
+				<input type="radio" value="option2" id="option2" />
+				Wherever Carmen Sandiego is
+			</label>
+
+			<label for="option3">
+				<input type="radio" value="option3" id="option3" />
+				At my house
+			</label>
+
+			<label for="option4">
+				<input type="radio" value="option4" id="option4" />
+				He's in the corner of the page
+			</label>
+			<label for="option5">
+				<input type="radio" value="option5" id="option5" />
+				I found him on Google Earth
+			</label>
+			<label for="send">
+				<input type="button"  onclick="formCollect()" value="Send Response" id="send1" />
+			</label>
+		</form>
 
 
-    </body>
+
+
+
+
+
+
+
+
+		<section id="social2">
+			<figure class="facebookButton" type="button" onclick="window.location.href=''">
+				<img src="" alt="Facebook Button">
+				<source media="(min-width: 650px)" srcset="">
+				<source media="(min-width: 465px)" srcset="">
+				<source media="(min-width: 325px)" srcset="">
+			</figure>
+			<figure class="instagramButton" type="button" onclick="window.location.href=''">
+				<img src="" alt="Instagram Button">
+				<source media="(min-width: 650px)" srcset="">
+				<source media="(min-width: 465px)" srcset="">
+				<source media="(min-width: 325px)" srcset="">
+			</figure>
+			<figure class="emailButton" type="button" onclick="window.location.href=''">
+				<img src="" alt="Email Button">
+				<source media="(min-width: 650px)" srcset="">
+				<source media="(min-width: 465px)" srcset="">
+				<source media="(min-width: 325px)" srcset="">
+			</figure>
+		</section>
+	</main>
+	<footer>
+		<p><a href="">Book a Rental!</a></p>
+		<p>Last updated 3-27-17</p>
+	</footer>
+
+
+</body>
 
 
 </html>
