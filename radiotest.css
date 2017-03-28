@@ -1,0 +1,72 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 300px;
+
+	background-color: #f2f2f2;
+}
+
+.main {
+	margin: 0 auto;
+
+	height: 150px;
+	width: 500px;
+
+	position: relative;
+	top: 75px;
+
+	border: 1px solid black;
+
+	background-color: lightred;
+
+	text-align: center;
+
+}
+
+input {
+	display: inline-block;
+	margin: 5px;
+}
+
+#submit {
+	position: relative;
+	top: 15px;
+}
+
+.total {
+	height: 150px;
+	width: 500px;
+
+	border: 1px solid black;
+
+	text-align: center;
+
+	margin: 0 auto;
+
+	display: none;
+
+	position: relative;
+	top: 75px;
+}
+
+.total h4 {
+	padding: 4px;
+	text-align: center;
+}
+
+.total button {
+	position: relative;
+	top: 5px;
+}
+
+.display {
+	display: block;
+}
+
+.displayHide {
+	display: none;
+}

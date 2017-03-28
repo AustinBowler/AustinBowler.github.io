@@ -2,6 +2,89 @@
 <html lang="en">
 
 	<head>
+
+
+
+
+
+
+
+		<script>
+			function myFunction() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Whats%20Your%20Favorite%20Superhero&body=I%20love%20Spiderman%20because%20he%20is%20the%20best%20and%20so%20am%20I!');
+			}
+		</script>
+		<script>
+			function myFunction2() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Whats%20Your%20Favorite%20Superhero&body=I%20love%20Batman%20because%20he%20is%20dark%20like%20my%20soul!');
+			}
+		</script>
+		<script>
+			function myFunction3() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Whats%20Your%20Favorite%20Superhero&body=I%20love%20Superman%20because%20he%20is%20obviously%20the%20most%20powerful!');
+			}
+		</script>
+		<script>
+			function myFunction4() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Whats%20Your%20Favorite%20Superhero&body=I%20love%20Wonder%20Woman%20because%20she%20is%20awesome!');
+			}
+		</script>
+		<script>
+			function myFunction5() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Whats%20Your%20Favorite%20Superhero&body=I%20love%20Captian%20America%20because%20AMERICA!!!');
+			}
+		</script>
+		<script>
+			function geters() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Who%20do%20you%20want%20to%20see&body=Get%20Batman%20before%20Batman%20gets%20you!!!');
+			}
+		</script>
+		<script>
+			function geters2() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Who%20do%20you%20want%20to%20see&body=Get%20Wonder%20Woman...%20as%20long%20as%20her%20skirt%20is%20longer!!!');
+			}
+		</script>
+		<script>
+			function geters3() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Who%20do%20you%20want%20to%20see&body=Get%20Superman%20because%20he%20is%20the%20best!!!');
+			}
+		</script>
+		<script>
+			function geters4() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Who%20do%20you%20want%20to%20see&body=WHAT!?!?%20I%20cant%20believe%20you%20forgot%20__________!!!%20Add%20him/her%20to%20the%20list!!!');
+			}
+		</script>
+		<script>
+			function salad() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Where%20is%20Waldo?&body=I%20have%20no%20idea.');
+			}
+		</script>
+		<script>
+			function salad2() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Where%20is%20Waldo?&body=Wherever%20Carmen%20Sandiego%20is.');
+			}
+		</script>
+		<script>
+			function salad3() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Where%20is%20Waldo?&body=At%20my%20house.');
+			}
+		</script>
+		<script>
+			function salad4() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Where%20is%20Waldo?&body=In%20the%20corner%20of%20the%20page.');
+			}
+		</script>
+		<script>
+			function salad5() {
+				window.open('mailto:rexburgheroparty@gmail.com?Subject=Where%20is%20Waldo?&body=I%20found%20him%20on%20Google%20Earth.');
+			}
+		</script>
+
+
+
+
+
+
 	<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="RHPstyle.css">
 		<meta charset="utf-8">
@@ -14,9 +97,9 @@
 		<h1>Rexburg Hero Party</h1>
 		</section>
 		<nav>
-			<p><a href="">About</a></p>
-			<p><a href="">Contact</a></p>
-			<p><a href="">Characters</a></p>
+			<p><a href="rhpabout.html">About</a></p>
+			<p><a href="rhpcontact.html">Contact</a></p>
+			<p><a href="rhpcharacters.html">Characters</a></p>
 		</nav>
 	</header>
 	<main>
@@ -29,7 +112,7 @@
 				<img src="RHPpics/raw/rhplogo.png" alt="Rexburg Hero Party Logo 1" style="width:55px;height:55px;">
 			</figure>
 			<form id="pictures_button">
-				<input  id="picturesLink" class="Pictures Button" type="button" value="Pictures" onclick="window.location.href=''" />
+				<input  id="picturesLink" class="Pictures Button" type="button" value="Pictures" onclick="window.location.href='rhppictures.html'" />
 			</form>
 			<figure class="RHPlogo2">
 				<img src="RHPpics/raw/rhplogo2.png" alt="Rexburg Hero Party Logo 2" style="width:55px;height:55px;">
@@ -48,7 +131,7 @@
 				<img src="RHPpics/images/2013_San_Diego_Comic_Con_-_The_Amazing_Spider-Man_2_86%202.jpg" alt="Spiderman at 2013 San Diego Comic Convention" style="width:129px;height:86px;">
 			</figure>
 			<form id="about2">
-				<input id="aboutLink" class="About" type="button" value="About" onclick="window.location.href=''" />
+				<input id="aboutLink" class="About" type="button" value="About" onclick="window.location.href='rhpabout.html'" />
 			</form>
 		</section>
 		<section id="social">
@@ -68,30 +151,27 @@
 		<form id="1">
 			<h3>What's Your Favorite Superhero?</h3>
 			<label for="option1">
-				<input type="radio" value="option1" id="option1"  />
+				<input type="radio" value="Spiderman" id="option1" onclick="myFunction()"/>
 				Spiderman
 			</label>
 
 			<label for="option2">
-				<input type="radio" value="option2" id="option2" />
+				<input type="radio" value="Batman" id="option2" onclick="myFunction2()"/>
 				Batman
 			</label>
 
 			<label for="option3">
-				<input type="radio" value="option3" id="option3" />
+				<input type="radio" value="Superman" id="option3" onclick="myFunction3()"/>
 				Superman
 			</label>
 
 			<label for="option4">
-				<input type="radio" value="option4" id="option4" />
+				<input type="radio" value="Wonder Woman" id="option4" onclick="myFunction4()"/>
 				Wonder Woman
 			</label>
 			<label for="option5">
-				<input type="radio" value="option5" id="option5" />
+				<input type="radio" value="Captian America" id="option5" onclick="myFunction5()"/>
 				Captian America
-			</label>
-			<label for="send">
-				<input type="button"  onclick="formCollect()" value="Send Response" id="send1" />
 			</label>
 		</form>
 		</section>
@@ -100,60 +180,53 @@
 		<form id="2">
 			<h3>Hey, Hero Lovers! What's On Your Mind?</h3>
 			<h4 id="query">Who do you want to see in Rexburg Hero Party?</h4>
-			<label for="option1">
-				<input type="radio" value="option1" id="option1"  />
+			<label for="option1.2">
+				<input type="radio" value="option1.2" id="option1.2" onclick="geters()"/>
 				Batman
 			</label>
 
-			<label for="option2">
-				<input type="radio" value="option2" id="option2" />
+			<label for="option2.2">
+				<input type="radio" value="option2.2" id="option2.2" onclick="geters2()"/>
 				Wonder Woman
 			</label>
 
-			<label for="option3">
-				<input type="radio" value="option3" id="option3" />
+			<label for="option3.2">
+				<input type="radio" value="option3.2" id="option3.2" onclick="geters3()"/>
 				Superman
 			</label>
 
-			<label for="option4">
-				<input type="radio" value="option4" id="option4" />
-				Other
+			<label for="option4.2">
+				<input type="radio" value="option4.2" id="option4.2" onclick="geters4()"/>
+				Other (please specify)
 			</label>
-			<br>
-			<h5>IF OTHER PLEASE SPECIFY:</h5>
-			<input id="specifyOther" type="text" name="other">
-			<input type="button" value="Submit" id="send2">
 		</form>
 		</section>
 		<section id="break2"></section>
-		<section id="form2">
+		<section id="form3">
 		<form id="3">
 			<h3>Where is Waldo?</h3>
-			<label for="option1">
-				<input type="radio" value="option1" id="option1"  />
+			<label for="option1.3">
+				<input type="radio" value="option1.3" id="option1.3"  onclick="salad()"/>
 				I have no idea
 			</label>
 
-			<label for="option2">
-				<input type="radio" value="option2" id="option2" />
+			<label for="option2.3">
+				<input type="radio" value="option2.3" id="option2.3" onclick="salad2()"/>
 				Wherever Carmen Sandiego is
 			</label>
 
-			<label for="option3">
-				<input type="radio" value="option3" id="option3" />
+			<label for="option3.3">
+				<input type="radio" value="option3.3" id="option3.3" onclick="salad3()"/>
 				At my house
 			</label>
 
-			<label for="option4">
-				<input type="radio" value="option4" id="option4" />
+			<label for="option4.3">
+				<input type="radio" value="option4.3" id="option4.3" onclick="salad4()"/>
 				He's in the corner of the page
 			</label>
-			<label for="option5">
-				<input type="radio" value="option5" id="option5" />
+			<label for="option5.3">
+				<input type="radio" value="option5.3" id="option5.3" onclick="salad5()"/>
 				I found him on Google Earth
-			</label>
-			<label for="send">
-				<input type="button"  onclick="formCollect()" value="Send Response" id="send1" />
 			</label>
 		</form>
 		</section>

@@ -52,7 +52,6 @@ h2:before {
 	justify-content: center;
 }
 #picsTab{
-	 margin-top: -10%;
 	background-color: red;
 	display: flex;
 	justify-content: center;
@@ -134,6 +133,7 @@ p{
 #form1{
 	background-color: black;
 	display: flex;
+	padding-bottom: 50px;
 }
 h3{
 	text-align: center;
@@ -145,20 +145,6 @@ label{
 	font-size: 20px;
 	color: white;
 	margin-left: 20px;
-}
-#send1{
-	color: black;
-	background-color: white;
-	border-color: white;
-	margin: 10px;
-	border-radius: 20%;
-}
-#send2{
-	color: black;
-	background-color: white;
-	border-color: white;
-	margin: 10px;
-	border-radius: 20%;
 }
 #specifyOther{
 	margin-left: 20px;
@@ -174,10 +160,51 @@ h5{
 #form2{
 	background-color: black;
 	display: flex;
+	padding-bottom: 50px;
+}
+#form3{
+	background-color: black;
+	display: flex;
+	padding-bottom: 50px;
 }
 footer{
 	background-color: red;
 	height: 150px;
 	margin-top: 0px;
 	padding-top: 5px;
+}
+h8{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+h9{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+	display: flex;
+	justify-content: center;
+}
+.profPic{
+	display: flex;
+	justify-content: center;
+}
+#whoAreWe{
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 50px;
+}
+#pid{
+	color: white
+}
+#where{
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-top: 50px;
 }
