@@ -4,13 +4,15 @@
 	<head>
 	<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="RHPstyle.css">
+		<meta charset="utf-8">
 	<title>Rexburg Hero Party Home</title>
 	<meta name="viewport" content="width=device-width">
 </head>
-
 <body>
 	<header>
+		<section id="title">
 		<h1>Rexburg Hero Party</h1>
+		</section>
 		<nav>
 			<p><a href="">About</a></p>
 			<p><a href="">Contact</a></p>
@@ -19,57 +21,50 @@
 	</header>
 	<main>
 		<section id="aboveFold">
+			<section id="about">
 			<h2>css determines h2 output --> company description</h2>
+			</section>
+			<section id="picsTab">
 			<figure class="RHPlogo1">
-				<img src="" alt="Rexburg Hero Party Logo 1">
-				<source media="(min-width: 650px)" srcset="">
-				<source media="(min-width: 465px)" srcset="">
-				<source media="(min-width: 325px)" srcset="">
+				<img src="RHPpics/raw/rhplogo.png" alt="Rexburg Hero Party Logo 1" style="width:55px;height:55px;">
 			</figure>
 			<form id="pictures_button">
-				<input class="Pictures Button" type="button" value="Pictures" onclick="window.location.href=''" />
+				<input  id="picturesLink" class="Pictures Button" type="button" value="Pictures" onclick="window.location.href=''" />
 			</form>
 			<figure class="RHPlogo2">
-				<img src="" alt="Rexburg Hero Party Logo 2">
-				<source media="(min-width: 650px)" srcset="">
-				<source media="(min-width: 465px)" srcset="">
-				<source media="(min-width: 325px)" srcset="">
+				<img src="RHPpics/raw/rhplogo2.png" alt="Rexburg Hero Party Logo 2" style="width:55px;height:55px;">
 			</figure>
+			</section>
 		</section>
 		<section id="break"></section>
 		<section id="newsFlash">
+			<section id="newsHeadline">
 			<h1>News Flash!</h1>
+			</section>
+			<section id="news">
 			<p>Seen Spiderman swinging around town? Instagram it with #rexburgheroparty or #rexburgspiderman</p>
+			</section>
 			<figure class="Spiderimic">
-				<img id="" alt="Spiderman at 2013 San Diego Comic Convention">
-				<source media="(min-width: 650px)" srcset="">
-				<source media="(min-width: 465px)" srcset="">
-				<source media="(min-width: 325px)" srcset="">
+				<img src="RHPpics/images/2013_San_Diego_Comic_Con_-_The_Amazing_Spider-Man_2_86%202.jpg" alt="Spiderman at 2013 San Diego Comic Convention" style="width:129px;height:86px;">
 			</figure>
-			<form id="about">
-				<input class="About" type="button" value="About" onclick="window.location.href=''" />
+			<form id="about2">
+				<input id="aboutLink" class="About" type="button" value="About" onclick="window.location.href=''" />
 			</form>
 		</section>
 		<section id="social">
-			<figure class="facebookButton" type="button" onclick="window.location.href=''">
-				<img src="" alt="Facebook Button">
-				<source media="(min-width: 650px)" srcset="">
-				<source media="(min-width: 465px)" srcset="">
-				<source media="(min-width: 325px)" srcset="">
+			<figure class="facebookButton" type="button" onclick="window.location.href='https://www.facebook.com/Rexburg-Hero-Party-191110071302490/'">
+				<img src="F_icon.svg.png" alt="Facebook Button" style="width:30px;height:30px;">
 			</figure>
-			<figure class="instagramButton" type="button" onclick="window.location.href=''">
-				<img src="" alt="Instagram Button">
-				<source media="(min-width: 650px)" srcset="">
-				<source media="(min-width: 465px)" srcset="">
-				<source media="(min-width: 325px)" srcset="">
+			<figure class="instagramButton" type="button" onclick="window.location.href='https://www.instagram.com/rexburgheroparty/'">
+				<img src="instagram-1581266_960_720.png" alt="Instagram Button" style="width:40px;height:40px;">
 			</figure>
-			<figure class="emailButton" type="button" onclick="window.location.href=''">
-				<img src="" alt="Email Button">
-				<source media="(min-width: 650px)" srcset="">
-				<source media="(min-width: 465px)" srcset="">
-				<source media="(min-width: 325px)" srcset="">
+			<figure class="emailButton" type="button">
+				<a href="mailto:rexburgheroparty@gmail.com?Subject=Questions%20and%20Comments" target="_top">
+				<img src="New-email-envelope-back-symbol-in-circular-outlined-button.svg.png" alt="Email Button" style="width:30px;height:30px;">
+				</a>
 			</figure>
 		</section>
+		<section id="form1">
 		<form id="1">
 			<h3>What's Your Favorite Superhero?</h3>
 			<label for="option1">
@@ -99,9 +94,12 @@
 				<input type="button"  onclick="formCollect()" value="Send Response" id="send1" />
 			</label>
 		</form>
+		</section>
+		<section id="break2"></section>
+		<section id="form2">
 		<form id="2">
 			<h3>Hey, Hero Lovers! What's On Your Mind?</h3>
-			<p id="query">Who do you want to see in Rexburg Hero Party?</p>
+			<h4 id="query">Who do you want to see in Rexburg Hero Party?</h4>
 			<label for="option1">
 				<input type="radio" value="option1" id="option1"  />
 				Batman
@@ -122,10 +120,13 @@
 				Other
 			</label>
 			<br>
-			IF OTHER PLEASE SPECIFY:
-			<input type="text" name="other">
-			<input type="button" value="Submit">
+			<h5>IF OTHER PLEASE SPECIFY:</h5>
+			<input id="specifyOther" type="text" name="other">
+			<input type="button" value="Submit" id="send2">
 		</form>
+		</section>
+		<section id="break2"></section>
+		<section id="form2">
 		<form id="3">
 			<h3>Where is Waldo?</h3>
 			<label for="option1">
@@ -155,6 +156,7 @@
 				<input type="button"  onclick="formCollect()" value="Send Response" id="send1" />
 			</label>
 		</form>
+		</section>
 
 
 
@@ -166,29 +168,23 @@
 
 
 		<section id="social2">
-			<figure class="facebookButton" type="button" onclick="window.location.href=''">
-				<img src="" alt="Facebook Button">
-				<source media="(min-width: 650px)" srcset="">
-				<source media="(min-width: 465px)" srcset="">
-				<source media="(min-width: 325px)" srcset="">
+			<figure class="facebookButton" type="button" onclick="window.location.href='https://www.facebook.com/Rexburg-Hero-Party-191110071302490/'">
+				<img src="F_icon.svg.png" alt="Facebook Button" style="width:30px;height:30px;">
 			</figure>
-			<figure class="instagramButton" type="button" onclick="window.location.href=''">
-				<img src="" alt="Instagram Button">
-				<source media="(min-width: 650px)" srcset="">
-				<source media="(min-width: 465px)" srcset="">
-				<source media="(min-width: 325px)" srcset="">
+			<figure class="instagramButton" type="button" onclick="window.location.href='https://www.instagram.com/rexburgheroparty/'">
+				<img src="instagram-1581266_960_720.png" alt="Instagram Button" style="width:40px;height:40px;">
 			</figure>
-			<figure class="emailButton" type="button" onclick="window.location.href=''">
-				<img src="" alt="Email Button">
-				<source media="(min-width: 650px)" srcset="">
-				<source media="(min-width: 465px)" srcset="">
-				<source media="(min-width: 325px)" srcset="">
+			<figure class="emailButton" type="button">
+				<a href="mailto:rexburgheroparty@gmail.com?Subject=Questions%20and%20Comments" target="_top">
+					<img src="New-email-envelope-back-symbol-in-circular-outlined-button.svg.png" alt="Email Button" style="width:30px;height:30px;">
+				</a>
 			</figure>
 		</section>
 	</main>
 	<footer>
-		<p><a href="">Book a Rental!</a></p>
-		<p>Last updated 3-27-17</p>
+		<p onclick="window.location.href=''">Book A Rental Here!</p>
+		<p>Last updated 3-28-17</p>
+		<p onclick="window.location.href=''">Click Here For Planning Document</p>
 	</footer>
 
 

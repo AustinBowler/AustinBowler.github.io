@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Test image display</title>
+		<meta name="viewport" content="width=device-width">
+		<link rel="script" type="text/json" href="testimagejson.json">
+	</head>
+
+	<body>
+		<header>
+			<h1 style="text-align:center;">Test image display</h1>
+		</header>
+		<main>
+			<script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+			<script type="text/javascript">
+			$(document).ready(function () {
+			var jsonURL = "testimagejson.json";
+			$.getJSON(jsonURL, function (json)
+			{
+			var imgList= "";
+
+			$.each(json.products, function () {
+				imgList += '<p><img src= "' + this.imgPath + '"></p>';
+
+			});
+
+			$('#dvProdList').append(imgList);
+			});
+			});
+			</script>
+			<div id="dvProdList"></div>
+
+
+
+
+
+
+
+
+
+
+		</main>
+	</body>
+</html>
