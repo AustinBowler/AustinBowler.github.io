@@ -208,3 +208,19 @@ h9{
 	justify-content: center;
 	padding-top: 50px;
 }
+#email{
+	background-color: black;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+#monolith{
+	font-size: 20px;
+	color: black;
+	background-color: yellow;
+	border-radius: 50%;
+	height: 155px;
+	width: 155px;
+	border-color: red;
+	border-width: 20px;
+}
