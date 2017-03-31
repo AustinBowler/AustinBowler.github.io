@@ -265,6 +265,15 @@ h10{
 #dvProdList{
 	margin-top: 10px;
 }
+@media screen and (min-width: 100px){
+	#specialK {
+		max-width: 50%;
+	}
+	#specialK2 {
+		max-width: 50%;
+		margin-left: 70%;
+	}
+}
 @media screen and (min-width: 500px){
 	#specialK {
 		max-width: 20%;
