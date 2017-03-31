@@ -191,13 +191,6 @@ footer{
 	margin-top: 0px;
 	padding-top: 5px;
 }
-h8{
-	text-align: center;
-	font-size: 30px;
-	color: white;
-	display: flex;
-	justify-content: center;
-}
 h9{
 	text-align: center;
 	font-size: 25px;
@@ -217,6 +210,12 @@ h9{
 	padding-top: 50px;
 }
 #pid{
+	color: white
+}
+#pid2{
+	color: white
+}
+#pid3{
 	color: white
 }
 #where{
