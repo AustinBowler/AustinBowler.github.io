@@ -10,6 +10,24 @@ a:hover {
 a:active {
 	color: white;
 }
+img {
+max-width: 100%;
+}
+#specialK3 {
+	max-width: 100%;
+	max-height: 40%;
+}
+#specialK4 {
+	max-width: 400px;
+	max-height: 400px;
+}
+#specialK5 {
+	max-width: 300px;
+	max-height: 200px;
+}
+video {
+	max-width: 100%;
+}
 @font-face {
 	font-family: WillText;
 	src: url(de-nada-industries_will-robinson/WillRobinson.ttf);
@@ -247,4 +265,42 @@ h10{
 }
 #dvProdList{
 	margin-top: 10px;
+}
+@media screen and (min-width: 500px){
+	#specialK {
+		max-width: 20%;
+	}
+	#specialK2 {
+		max-width: 20%;
+		margin-left: 70%;
+	}
+	#specialK3 {
+		max-width: 100%;
+		max-height: 70%;
+	}
+}
+@media screen and (min-width: 708px){
+	#specialK {
+		max-width: 20%;
+	}
+	#specialK2 {
+		max-width: 20%;
+		margin-left: 70%;
+	}
+	h2 {
+		visibility: hidden;
+	}
+	h2:before {
+		text-align: center;
+		content: 'Are your kids ready for a party? Rexburg Hero Party is here for you! Every child loves superheroes, and here at Rexburg Hero Party we provide quality superhero character rentals. Your children will love when their favorite hero comes to life before their very eyes!';
+		visibility:visible;
+		display: flex;
+		align-content: center;
+	}
+}
+@media screen and (min-width: 1224px){
+	#specialK3 {
+		max-width: 100%;
+		max-height: 100%;
+	}
 }

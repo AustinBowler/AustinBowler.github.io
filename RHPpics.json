@@ -6,11 +6,87 @@
 		},
 		{
 			"name": "Spiderman Pose 2",
-			"imgPath": "RHPpics/raw/spider1.jpeg"
+			"imgPath": "RHPpics/raw/spider1.jpg"
 		},
 		{
 			"name": "Spiderman Pose 3",
-			"imgPath": "RHPpics/raw/spider2.jpeg"
+			"imgPath": "RHPpics/raw/spider2.jpg"
+		},
+		{
+			"name": "Spiderman at the Movies",
+			"imgPath": "RHPpics/raw/FullSizeRender-1.jpg"
+		},
+		{
+			"name": "Spiderman in the Snow",
+			"imgPath": "RHPpics/raw/FullSizeRender.jpg"
+		},
+		{
+			"name": "Spiderman in Las Vegas",
+			"imgPath": "RHPpics/raw/IMG_2528.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman in the Hair Salon",
+			"imgPath": "RHPpics/raw/FullSizeRender.jpg 2.jpeg"
+		},
+		{
+			"name": "Spiderman at the Denstist's",
+			"imgPath": "RHPpics/raw/16587322_1442124359155659_9201188189656712238_o.jpg"
+		},
+		{
+			"name": "Spiderman with a Cupcake",
+			"imgPath": "RHPpics/raw/IMG_3018.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman with a Blanket",
+			"imgPath": "RHPpics/raw/IMG_3026_sRGB.JPG"
+		},
+		{
+			"name": "Spiderman at the Movies 2",
+			"imgPath": "RHPpics/raw/IMG_3042.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman Sewing",
+			"imgPath": "RHPpics/raw/IMG_3070.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman in the Bath",
+			"imgPath": "RHPpics/raw/IMG_3039.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman has Girl Scout Cookies",
+			"imgPath": "RHPpics/raw/IMG_3071.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman with Josh",
+			"imgPath": "RHPpics/raw/IMG_3084.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman at Fandimonium",
+			"imgPath": "RHPpics/raw/IMG_3082.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman Drawing a Picture",
+			"imgPath": "RHPpics/raw/IMG_3076.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman on a Wall",
+			"imgPath": "RHPpics/raw/IMG_3125.jpg"
+		},
+		{
+			"name": "Spiderman at La Jolla, Rexburg",
+			"imgPath": "RHPpics/raw/IMG_3130.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman in Las Vegas 2",
+			"imgPath": "RHPpics/raw/IMG_2527.JPG.jpeg"
+		},
+		{
+			"name": "Spiderman with his Fans",
+			"imgPath": "RHPpics/raw/spider4.jpg"
+		},
+		{
+			"name": "Spiderman at The Hickory",
+			"imgPath": "RHPpics/raw/spider3.jpg"
 		}
 	]
 }
