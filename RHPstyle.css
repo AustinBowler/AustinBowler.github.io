@@ -210,8 +210,10 @@ h9{
 }
 #email{
 	background-color: black;
+	padding-top: 50px;
+}
+#chili{
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: center;
 }
 #monolith{
@@ -223,4 +225,26 @@ h9{
 	width: 155px;
 	border-color: red;
 	border-width: 20px;
+}
+#characters{
+	background-color: black;
+	justify-content: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.CPROF{
+	display: flex;
+	justify-content: center;
+	padding-bottom: 50px;
+	padding-top: 10px;
+}
+h10{
+	display: flex;
+	justify-content: center;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+}
+#dvProdList{
+	margin-top: 10px;
 }

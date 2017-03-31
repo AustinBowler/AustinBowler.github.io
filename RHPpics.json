@@ -1,0 +1,16 @@
+{
+	"products": [
+		{
+			"name": "Spiderman Pose 1",
+			"imgPath": "RHPpics/raw/FullSizeRender.jpg.jpeg"
+		},
+		{
+			"name": "Spiderman Pose 2",
+			"imgPath": "RHPpics/raw/spider1.jpeg"
+		},
+		{
+			"name": "Spiderman Pose 3",
+			"imgPath": "RHPpics/raw/spider2.jpeg"
+		}
+	]
+}
