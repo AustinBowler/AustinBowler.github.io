@@ -265,14 +265,20 @@ h10{
 #dvProdList{
 	margin-top: 10px;
 }
-@media screen and (min-width: 100px){
-	#specialK {
-		max-width: 10%;
-	}
-	#specialK2 {
-		max-width: 10%;
-		margin-left: 70%;
-	}
+@media only screen
+	and (min-device-width : 320px)
+	and (max-device-width : 568px)
+	and (orientation : portrait) {
+		html {
+			visibility: hidden;
+		}
+		html:before {
+			text-align: center;
+			content: 'Whoops, looks like you have to turn your screen to landscape... we apologize for the inconvenience, have a nice day!';
+			visibility:visible;
+			display: flex;
+			align-content: center;
+		}
 }
 @media screen and (min-width: 500px){
 	#specialK {
