@@ -267,10 +267,10 @@ h10{
 }
 @media screen and (min-width: 100px){
 	#specialK {
-		max-width: 50%;
+		max-width: 10%;
 	}
 	#specialK2 {
-		max-width: 50%;
+		max-width: 10%;
 		margin-left: 70%;
 	}
 }
